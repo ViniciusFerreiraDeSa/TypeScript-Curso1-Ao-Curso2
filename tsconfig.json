@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6",
+        "noEmitOnError": true, // evita arquivos js com problemas
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": true,
+        
+    },
+    "include": [
+        "app/**/*" // convertar todas as pastas de ts para js
+    ]
+}
